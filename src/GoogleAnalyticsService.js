@@ -2,7 +2,7 @@ angular.module('GoogleAnalyticsModule', ['pascalprecht.translate'])
 .config(function($translateProvider) {
     'use strict';
 
-    $translateProvider
+    /*$translateProvider
         .preferredLanguage('en_US')
         .useSanitizeValueStrategy('escape')
         .translations('en_US', {
@@ -12,7 +12,7 @@ angular.module('GoogleAnalyticsModule', ['pascalprecht.translate'])
                 }
             }
         })
-        .useMissingTranslationHandlerLog();
+        .useMissingTranslationHandlerLog();*/
     })
     .factory('GoogleAnalyticsService', ['$window', '$location', function($window, $location){
         'use strict';
